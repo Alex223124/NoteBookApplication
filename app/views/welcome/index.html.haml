@@ -1,1 +1,31 @@
-%h1 placeholder for welcome 
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application."
+		%p.name - Alex
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.
+
+			.callout
+				%h2 Notes
+				%p Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.
+
+			.callout
+				%h2 Notes
+				%p Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.Notes Notes Notes Notes.
+#bottom_cta
+	.wrapper
+		%h2 WATCH!
+		%p sign up...
+		%button= link_to "Click Here!!!", new_user_registration_path
+
+%footer
+	%p &copy; Alex
